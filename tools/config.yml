@@ -18,7 +18,7 @@ plays:
   eventId: +
   period: periodDescriptor.number
   periodType: periodDescriptor.+
-  timeInPeriod: +
+  timeRemaining: +
   situationCode: +
   typeCode: +
   typeDescKey: +
