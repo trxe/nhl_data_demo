@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="8.5cm" viewBox="0 0 8.5 10.0" height="10.0cm">
+  <g>
+    <g>
+      <g transform="translate(4.25, 5.8) scale(1 1) translate(0, 0) scale(0.08 0.08) "><defs>
+<g opacity="1.0" id="d0">
+<path d="M-71,-42.5 L71,-42.5" stroke-width="1" stroke="black"/>
+<path d="M-100,-13.5 L-100,13.5" stroke-width="1" stroke="black"/>
+<path d="M100,-13.5 L100,13.5" stroke-width="1" stroke="black"/>
+<path d="M-71,42.5 L71,42.5" stroke-width="1" stroke="black"/>
+<circle cx="-71" cy="-13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-91.106186954104" fill="none" stroke-width="1" stroke="black"/>
+<circle cx="-71" cy="13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-45.553093477052" fill="none" stroke-width="1" stroke="black"/>
+<circle cx="71" cy="13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-0.0" fill="none" stroke-width="1" stroke="black"/>
+<circle cx="71" cy="-13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-136.659280431156" fill="none" stroke-width="1" stroke="black"/>
+<path d="M0,-42.5 L0,42.5" fill="none" opacity="0.2" stroke-width="2" stroke="black"/>
+</g>
+<clipPath id="d1">
+<path d="M-71,-42.5 L71,-42.5" stroke-width="1" stroke="black"/>
+<path d="M-100,-13.5 L-100,13.5" stroke-width="1" stroke="black"/>
+<path d="M100,-13.5 L100,13.5" stroke-width="1" stroke="black"/>
+<path d="M-71,42.5 L71,42.5" stroke-width="1" stroke="black"/>
+<circle cx="-71" cy="-13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-91.106186954104" fill="none" stroke-width="1" stroke="black"/>
+<circle cx="-71" cy="13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-45.553093477052" fill="none" stroke-width="1" stroke="black"/>
+<circle cx="71" cy="13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-0.0" fill="none" stroke-width="1" stroke="black"/>
+<circle cx="71" cy="-13.5" r="29" stroke-dasharray="45.553093477052 136.659280431156" stroke-dashoffset="-136.659280431156" fill="none" stroke-width="1" stroke="black"/>
+<rect x="-71" y="-42.5" width="142" height="85" fill="none"/>
+</clipPath>
+<g opacity="0.5" clip-path="url(#d1)" id="d2">
+<path d="M-89,-42.5 L-89,42.5" fill="none" stroke-width="1" stroke="red"/>
+<path d="M89,-42.5 L89,42.5" fill="none" stroke-width="1" stroke="red"/>
+<path d="M-29,-42.5 L-29,42.5" fill="none" stroke-width="2" stroke="blue"/>
+<path d="M29,-42.5 L29,42.5" fill="none" stroke-width="2" stroke="blue"/>
+<circle cx="-89" cy="0" r="8" stroke-dasharray="25.132741228718345 25.132741228718345" stroke-dashoffset="-37.69911184307752" fill="none" stroke-width="1" stroke="red"/>
+<circle cx="89" cy="0" r="8" stroke-dasharray="25.132741228718345 25.132741228718345" stroke-dashoffset="-12.566370614359172" fill="none" stroke-width="1" stroke="red"/>
+<circle cx="-69" cy="22" r="15" fill="none" stroke-width="1" stroke="red"/>
+<circle cx="69" cy="22" r="15" fill="none" stroke-width="1" stroke="red"/>
+<circle cx="-69" cy="-22" r="15" fill="none" stroke-width="1" stroke="red"/>
+<circle cx="69" cy="-22" r="15" fill="none" stroke-width="1" stroke="red"/>
+<circle cx="-69" cy="22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="69" cy="22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="-69" cy="-22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="69" cy="-22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="-24" cy="22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="24" cy="22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="-24" cy="-22" r="1" fill="red" stroke-width="1" stroke="red"/>
+<circle cx="24" cy="-22" r="1" fill="red" stroke-width="1" stroke="red"/>
+</g>
+</defs>
+<use xlink:href="#d0" x="51.25" y="0" transform="rotate(90) scale(1)"/>
+<use xlink:href="#d2" x="51.25" y="0" transform="rotate(90) scale(1)"/>
+</g>
+    </g>
+  </g>
+</svg>

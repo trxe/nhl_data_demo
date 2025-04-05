@@ -1,0 +1,10 @@
+drawsvg
+svgutils
+numpy
+polars
+statsmodels
+scikit-learn
+matplotlib
+pyarrow
+requests
+psycopg

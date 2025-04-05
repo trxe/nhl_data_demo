@@ -1,0 +1,88 @@
+games:
+  id: +
+  season: +
+  gameType: +
+  startTimeUTC: +
+  venueTimezone: +
+  venueTimezone: +
+  awayTeamId: awayTeam.id
+  homeTeamId: homeTeam.id
+
+# all_plays:
+#   _flatten:
+#     _key: plays
+#     gameId: +
+  
+plays:
+  gameId: +
+  eventId: +
+  period: periodDescriptor.number
+  periodType: periodDescriptor.+
+  timeInPeriod: +
+  situationCode: +
+  typeCode: +
+  typeDescKey: +
+  sortOrder: +
+  homeTeamDefendingSide: +
+  
+play_details:
+  gameId: +
+  eventId: +
+  assist1PlayerId: details.+
+  assist1PlayerTotal: details.+
+  assist2PlayerId: details.+
+  assist2PlayerTotal: details.+
+  awaySOG: details.+
+  awayScore: details.+
+  blockingPlayerId: details.+
+  committedByPlayerId: details.+
+  descKey: details.+
+  discreteClip: details.+
+  drawnByPlayerId: details.+
+  duration: details.+
+  eventOwnerTeamId: details.+
+  goalieInNetId: details.+
+  highlightClip: details.+
+  highlightClipFr: details.+
+  highlightClipSharingUrl: details.+
+  highlightClipSharingUrlFr: details.+
+  hitteePlayerId: details.+
+  hittingPlayerId: details.+
+  homeSOG: details.+
+  homeScore: details.+
+  losingPlayerId: details.+
+  playerId: details.+
+  reason: details.+
+  scoringPlayerId: details.+
+  scoringPlayerTotal: details.+
+  secondaryReason: details.+
+  shootingPlayerId: details.+
+  shotType: details.+
+  typeCode: details.+
+  winningPlayerId: details.+
+  xCoord: details.+
+  yCoord: details.+
+  zoneCode: details.+
+
+rosters:
+  teamId: +
+  playerId: +
+  sweaterNumber: +
+  positionCode: +
+  headshot: +
+  gameId: +
+
+shifts:
+  id: +
+  detailCode: +
+  duration: +
+  playerId: +
+  shiftNumber: +
+  startTime: +
+  endTime: +
+  eventDetails: +
+  eventNumber: +
+  gameId: +
+  hexValue: +
+  teamId: +
+  typeCode: +
