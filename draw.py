@@ -2,6 +2,7 @@ import drawsvg as draw
 import svgutils.compose as sc
 
 RINK = ((-100, 100), (-42.5, 42.5))
+GOAL_OFFSET = 11
 PADDING = 5
 
 MAX_RINK_DIST = pow(pow(RINK[0][1] - RINK[0][0], 2) + pow(RINK[1][1], 2), 0.5)
