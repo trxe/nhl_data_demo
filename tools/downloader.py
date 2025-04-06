@@ -19,7 +19,7 @@ def parse_date(val: str, default_mm_dd) -> tuple[str, dt.date, bool]:
     if len(val) > 4:
         return val, strptime(val), False
     filled_date = f"{val}-{default_mm_dd}"
-    return filled_date, strptime(filled_date), False
+    return filled_date, strptime(filled_date), True
 
 def fmt_date(val: dt.date, fmt: str = '%Y-%m-%d') -> str:
     return val.strftime(fmt)
@@ -78,9 +78,9 @@ def main(gametype_filter: list[int], from_date: str, to_date: str, team_filter: 
     pre, _, _, _ = nhl_api.get_season_windows(start_str)
     _, _, _, postend = nhl_api.get_season_windows(end_str)
     if start_whole_year:
-        start_str, start = pre, parse_date(pre)[1]
+        start_str, start = pre, parse_date(pre, 'invalid')[1]
     if end_whole_year:
-        end_str, end = postend, parse_date(postend)[1]
+        end_str, end = postend, parse_date(postend, 'invalid')[1]
     logging.info(f"From {start_str} to {end_str}")
     while start < end and RETRY < RETRY_THRESHOLD:
         playbyplays = []
